@@ -1,148 +1,122 @@
 * {
-  margin: 0;
-  padding: 0;
+  font-family: Arial;
 }
 
 body {
-  font-family: Verdana Tahoma sans-serif;
+  margin: 0px;
 }
 
-#mainContainer {
-  display: flex;
-  flex-direction: column;
-  margin: 2%;
+.container {
+  width: 1118px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-#logo img {
-  height: 50px;
+.navbar {
+  background: rgb(221, 218, 219);
+  height: 100px;
 }
 
-.menuBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(230, 230, 230);
-  padding-left: 20px;
+.logo {
+  float: left;
+  margin: 20px;
+  padding: 10px;
 }
 
-.menuItems {
-  font: 20px Tahoma;
-  font-weight: bolder;
-  text-transform: uppercase;
+.nav-heading {
+  float: right;
+  margin: 20px;
+  padding: 20px;
 }
 
-a{
-   text-decoration: none;
-   padding-right: 30px;
-   color:#7A6667;
-
-
-}
-.mainContent {
-  display: block;
-  width: 100%;
-  position: relative;
+.nav-heading a {
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(143, 140, 141);
 }
 
-.mainContent {
+.main-image {
+  margin: 0px;
+  width: 1100px;
 }
 
-#mottoCircle {
-  background-image: url("icons/05.png");
-  background-size: cover;
-  height: 220px;
-  width: 220px;
-  border-radius: 50%;
+.add-bottom {
   position: absolute;
-  right: 220px;
-  bottom: 80px;
+  top: 520px;
+  /*84%*/
+  left: 860px;
+  /*61%*/
+}
+
+.add-bottom-text {
+  position: absolute;
+  top: 560px;
+  /*92%*/
+  left: 900px;
+  /*64%*/
   color: white;
-  font-weight: bolder;
   font-size: 20px;
 }
 
-.freeze{
-    margin: 80px 0 0 20px;
-    text-align: center;
-}
-
-.featuredProduct {
+.row {
+  background: #E9E7E8;
   display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-  height: 300px;
-  background-color:rgb(230, 230, 230);
-
+  flex-direction: row;
+  text-align: left;
+  height: 275px;
 }
 
-.productDescription {
+.column {
+  float: left;
+}
+
+.left {
+  margin: 10px;
+  font-weight: 400px;
+  padding: 10px;
+  line-height: 9px;
+}
+
+.right {
+  margin: auto;
+}
+
+.red-class {
+  color: #CB3362;
+}
+
+.gray-class {
+  color: rgb(143, 140, 141);
+}
+
+.right {
+  margin: 5px;
+  padding: 10px;
+}
+
+.green-band {
+  background: #C8C10E;
   display: flex;
-  align-items: center;
-}
-
-.productDescription img {
-  display: flex;
-}
-
-.productDescription p {
-  color: rgb(151, 130, 131);
-}
-
-.productLable {
-  padding-top: 30px;
-}
-
-.productLable h2 {
-  font-family: Tahoma;
-  color: rgb(110, 110, 100);
-}
-
-.productLable h3 {
-  font-family: Verdana;
-  color: rgb(30, 25, 25);
-
-}
-
-.infoSection {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(215, 215, 15);
-    height: 200px;
-}
-.infoSection .icons {
-  text-transform: uppercase;
-  font-family: Verdana;
-  font-weight: bolder;
-}
-
-.icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 25px;
-
-}
-
-.icons img {
-  padding-bottom: 10px;
-}
-
-.social {
-  background: rgb(100, 25, 50);
-  height: auto;
-}
-
-.social p {
-  text-align: center;
+  justify-content: space-between;
+  margin: 0px;
   color: white;
 }
 
-.socialIcons {
-  margin-top: 20px;
+.green-band-contents {
+  font-weight: 400px;
+  margin: 10px 30px;
+  padding: 20px;
   text-align: center;
 }
 
-.socialIcons img {
-  margin-right: 25px;
+.footer {
+  background: #CB3362;
+  color: white;
+  font-size: 15px;
+}
+
+.icons {
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
 }
